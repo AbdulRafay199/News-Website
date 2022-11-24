@@ -1,0 +1,83 @@
+/* .btncl{
+    margin-top: 20px;
+} */
+.menu{
+    display: none;
+    visibility: hidden;
+    /* width: 0px;
+    transition: width 1s; */
+}
+.hoverr{
+    text-align: start;
+    display: block;
+    /* margin-bottom: 0px; */
+    width: 117%;
+    margin-left: -24px;
+    padding: 13px;
+    border-bottom: 0.5px solid #7b8caf;
+    background-color: #253275;
+    border-radius: 0px 0px 0px 0px;
+    color: white;
+}
+.hoverr:hover{
+    background-color: #DB5A6E;
+    color: white;
+    transition: 0.5s ease;
+    border-left: 5px solid #0c1752;
+}
+
+.hoverr:focus{
+    background-color: #DB5A6E;
+    color: white;
+    transition: 0.5s ease;
+    border-left: 5px solid #0c1752;
+}
+
+.hoverr:active{
+    background-color: #DB5A6E;
+    color: white;
+    transition: 0.5s ease;
+    border-left: 5px solid #0c1752;
+}
+
+
+@media screen and (min-width: 992px){
+    
+    .menu{
+        width: 25%;
+    }
+    /* .btncl{
+        display: none;
+        visibility: hidden;
+        
+    } */
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+    
+    .menu{
+        width: 35%;
+    }
+    
+
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px){
+
+    .menu{
+        width: 50%;
+    }
+    
+
+}
+
+@media screen and (max-width: 450px){
+
+    .menu{
+        width: 75%;
+    }
+    
+
+}
