@@ -29,7 +29,7 @@ export default class TopNavbar extends Component {
             <button className="btn togglebtn px-2" onClick={togglemenu} data-bs-toggle="collapse" aria-expanded="false" aria-controls="multiCollapseExample1"><img className='' src="https://img.icons8.com/fluency/96/000000/menu--v1.png" alt="menu" style={{width:"30px", height:"auto"}}/></button>
             <div className="mx-auto">
                 <img src="NewsNutLogo.png" className="img-fluid" alt="navbar" style={{width:"96px", height:"auto"}}/>
-                <a className="navbar-brand" href="/">NewsNut</a>
+                <a className="navbar-brand" href="/">NewsNutssss</a>
             </div>
             <div className="input-group my-auto" style={{width:"20%"}}>
                 <label className="mx-2 my-auto" htmlFor="inputGroupSelect01" style={{color:"white"}}>Country: </label>
